@@ -1,0 +1,143 @@
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[1/5] Write swift-version--58304C5D6DBC2206.txt
+[3/7] Compiling SmileTool DJIBluetoothMonitor.swift
+[4/7] Emitting module SmileTool
+[5/9] Compiling SmileTool SmileToolApp.swift
+[6/9] Compiling SmileTool HardwareSettingsView.swift
+[6/10] Write Objects.LinkFileList
+[7/10] Linking SmileTool
+[8/10] Applying SmileTool
+[10/20] Compiling HardwareTests NUT65Tests.swift
+[11/20] Compiling HardwareTests HardwarePresetTests.swift
+[12/20] Compiling HardwareTests MXMasterTests.swift
+[13/20] Compiling HardwareTests HardwareTests.swift
+[14/21] Compiling HardwareTests WeChatVoiceTests.swift
+[15/21] Compiling HardwareTests DJIMicTests.swift
+[16/21] Emitting module HardwareTests
+[17/21] Compiling HardwareTests AudioTests.swift
+[18/21] Compiling HardwareTests DJIBluetoothTests.swift
+[19/21] Compiling HardwareTests AudioDiagnosticsTests.swift
+[20/21] Compiling HardwareTests AudioLoopbackTests.swift
+[20/22] Write Objects.LinkFileList
+[21/22] Linking SmileToolPackageTests
+Build complete! (7.43s)
+Test Suite 'All tests' started at 2026-09-26 22:07:32.056.
+Test Suite 'All tests' passed at 2026-09-26 22:07:32.057.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test heldKeyReleasedOnDisableAndEdit() started.
+◇ Test mouseMatchingRejectsUnrelatedStaleAndDuplicateEdges() started.
+◇ Test chromecastReportEdges() started.
+◇ Test djiBatteryTransientFailureKeepsIdentityTimestampAndExpires() started.
+◇ Test audioRingBoundsLatencyAndSanitizesSamples() started.
+➜ Test djiTwoPhysicalInputsDeliverAudio() skipped.
+◇ Test x6VoiceSuppressesOnlyMatchingNativeSearchEdges() started.
+◇ Test batteryMissingSamplesPreserveLastSuccessfulReading() started.
+◇ Test mixSettingsPreserveUIDsAndChannelControls() started.
+◇ Test localMonitoringGateSilencesAudioAndDropsStaleSpeech() started.
+◇ Test audioProtocolResetsAndRejectsMalformedPackets() started.
+◇ Test djiPresetsPersistIndependentlyAndAudioIsUSB() started.
+➜ Test virtualMixSignalReturnsThroughDriverAndOutputMuteWorks() skipped.
+➜ Test diagnosticSpeakerPlaybackCompletes() skipped.
+◇ Test djiClickGesturesDoNotEmitShorterActions() started.
+◇ Test disconnectedDevicesDoNotBlockAvailableMixOrLosePreferences() started.
+◇ Test visualAudioMetersUseDecibelsAndBoundInvalidValues() started.
+◇ Test nut65PacketAndBigEndianKeycode() started.
+◇ Test hardwarePresetSwitchEndsLearningAndReleasesHeldShortcut() started.
+◇ Test headphonesAndAggregatesRequireExplicitMonitoring() started.
+◇ Test x6UnprefixedControlModifierDoesNotLoseMappedKey() started.
+◇ Test mixActuallySumsSourcesAndHonorsMuteSolo() started.
+◇ Test streamingResamplerPreservesPacketBoundaries() started.
+◇ Test djiBluetoothRejectsInvalidPercentAndDropsDisconnectedDevices() started.
+◇ Test x6KeyboardAndConsumerReports() started.
+◇ Test weChatShortcutWaitsForAudioAndDoesNotRepeatOnStreamRestart() started.
+◇ Test djiBluetoothKeepsTwoIdentitiesAndMissingBatteryUnknown() started.
+◇ Test nut65PhysicalLayoutAndUnknownKeysArePreserved() started.
+◇ Test outputsHaveIndependentGainMuteAndClipping() started.
+◇ Test systemAudioInventoryIsReadableWithoutChangingRoutes() started.
+◇ Test hardwarePresetsMigrateAndRemainIsolatedAcrossRestarts() started.
+◇ Test djiNativeOnlyRowsIgnoreSavedCustomActions() started.
+◇ Test diagnosticSmallRefillCanIntroduceDiscontinuity() started.
+◇ Test diagnosticToneIsBoundedFiniteAndFades() started.
+◇ Test djiHoldRequiresRealDurationAndResetCancelsPendingGesture() started.
+◇ Test learningAndEditingDoNotExecute() started.
+◇ Test batteryNeverInventsOrClampsInvalidPercentage() started.
+◇ Test nut65MacEditorDoesNotDefaultToWindowsLayer() started.
+◇ Test mxReportsRespectDeviceFeatureAndSoftwareFields() started.
+◇ Test x6PGPlusAndVoiceDispatchConfiguredActions() started.
+◇ Test routingRejectsLoopbackAndMissingDevicesButAllowsDuplexHardware() started.
+◇ Test customVoiceAndModelIsolation() started.
+◇ Test diagnosticFullBufferRendersWithoutRefillGaps() started.
+◇ Test djiNativeLabelsDoNotCreateMacActions() started.
+◇ Test settingsRoundTrip() started.
+◇ Test mxFirmwareControlsAndPressSetsAreBounded() started.
+➜ Test virtualOutputGraphOpensWithoutCapturingOrPlayingContent() skipped.
+◇ Test weChatVoicePreferencePreservesMappingsAndEmitsControlI() started.
+Tone refill diagnostic: 480 supplied / 512 requested; 32 zero-filled frames; discontinuity=0.05067047
+✔ Test mouseMatchingRejectsUnrelatedStaleAndDuplicateEdges() passed after 0.001 seconds.
+✔ Test audioRingBoundsLatencyAndSanitizesSamples() passed after 0.001 seconds.
+✔ Test djiBatteryTransientFailureKeepsIdentityTimestampAndExpires() passed after 0.001 seconds.
+✔ Test disconnectedDevicesDoNotBlockAvailableMixOrLosePreferences() passed after 0.001 seconds.
+✔ Test localMonitoringGateSilencesAudioAndDropsStaleSpeech() passed after 0.001 seconds.
+✔ Test audioProtocolResetsAndRejectsMalformedPackets() passed after 0.001 seconds.
+✔ Test djiClickGesturesDoNotEmitShorterActions() passed after 0.001 seconds.
+✔ Test mixSettingsPreserveUIDsAndChannelControls() passed after 0.001 seconds.
+✔ Test mixActuallySumsSourcesAndHonorsMuteSolo() passed after 0.001 seconds.
+✔ Test outputsHaveIndependentGainMuteAndClipping() passed after 0.001 seconds.
+✔ Test weChatShortcutWaitsForAudioAndDoesNotRepeatOnStreamRestart() passed after 0.001 seconds.
+✔ Test djiBluetoothRejectsInvalidPercentAndDropsDisconnectedDevices() passed after 0.001 seconds.
+✔ Test diagnosticSmallRefillCanIntroduceDiscontinuity() passed after 0.001 seconds.
+✔ Test djiBluetoothKeepsTwoIdentitiesAndMissingBatteryUnknown() passed after 0.001 seconds.
+✔ Test visualAudioMetersUseDecibelsAndBoundInvalidValues() passed after 0.001 seconds.
+✔ Test nut65PacketAndBigEndianKeycode() passed after 0.001 seconds.
+✔ Test batteryNeverInventsOrClampsInvalidPercentage() passed after 0.001 seconds.
+✔ Test nut65MacEditorDoesNotDefaultToWindowsLayer() passed after 0.001 seconds.
+✔ Test mxReportsRespectDeviceFeatureAndSoftwareFields() passed after 0.001 seconds.
+✔ Test mxFirmwareControlsAndPressSetsAreBounded() passed after 0.001 seconds.
+✔ Test streamingResamplerPreservesPacketBoundaries() passed after 0.001 seconds.
+✔ Test routingRejectsLoopbackAndMissingDevicesButAllowsDuplexHardware() passed after 0.001 seconds.
+✔ Test djiHoldRequiresRealDurationAndResetCancelsPendingGesture() passed after 0.001 seconds.
+✔ Test nut65PhysicalLayoutAndUnknownKeysArePreserved() passed after 0.001 seconds.
+✔ Test headphonesAndAggregatesRequireExplicitMonitoring() passed after 0.003 seconds.
+✔ Test heldKeyReleasedOnDisableAndEdit() passed after 0.004 seconds.
+✔ Test batteryMissingSamplesPreserveLastSuccessfulReading() passed after 0.005 seconds.
+✔ Test diagnosticToneIsBoundedFiniteAndFades() passed after 0.010 seconds.
+✔ Test x6VoiceSuppressesOnlyMatchingNativeSearchEdges() passed after 0.045 seconds.
+[CAST-MAP] 方向上 DOWN -> up
+[CAST-MAP] 方向上 UP -> up
+✔ Test chromecastReportEdges() passed after 0.047 seconds.
+✔ Test djiPresetsPersistIndependentlyAndAudioIsUSB() passed after 0.049 seconds.
+✔ Test hardwarePresetSwitchEndsLearningAndReleasesHeldShortcut() passed after 0.050 seconds.
+[X6-MAP] 方向上 DOWN -> up
+[X6-MAP] 方向上 UP -> up
+✔ Test x6UnprefixedControlModifierDoesNotLoseMappedKey() passed after 0.051 seconds.
+[X6-MAP] 方向上 DOWN -> up
+[X6-MAP] 方向上 UP -> up
+[X6-MAP] 返回 DOWN -> back
+[X6] consumer usage=0x0224 edge=down raw=24 02
+[X6-MAP] 返回 UP -> back
+[X6] consumer usage=0x0000 edge=up raw=00 00
+✔ Test x6KeyboardAndConsumerReports() passed after 0.052 seconds.
+Audio inventory: “iPhone”的麦克风 [in:1, out:0], MacBook Air麦克风 [in:1, out:0], MacBook Air扬声器 [in:0, out:2], QSAudio [in:0, out:2], vRemoteDr 2ch [in:2, out:2]
+✔ Test systemAudioInventoryIsReadableWithoutChangingRoutes() passed after 0.054 seconds.
+✔ Test hardwarePresetsMigrateAndRemainIsolatedAcrossRestarts() passed after 0.054 seconds.
+✔ Test djiNativeOnlyRowsIgnoreSavedCustomActions() passed after 0.056 seconds.
+✔ Test learningAndEditingDoNotExecute() passed after 0.057 seconds.
+[X6-MAP] PG+ DOWN -> App Store
+[X6-MAP] PG+ UP -> App Store
+[X6] consumer usage=0x0221 edge=down raw=21 02
+[X6] voice DOWN source=consumer-search
+[X6] consumer usage=0x0000 edge=up raw=00 00
+[X6] voice UP source=keyboard-0xAA
+✔ Test x6PGPlusAndVoiceDispatchConfiguredActions() passed after 0.058 seconds.
+Scheduled tone: 48000 frames, max sample error=0.0, max adjacent step=0.0046070167
+✔ Test diagnosticFullBufferRendersWithoutRefillGaps() passed after 0.118 seconds.
+✔ Test customVoiceAndModelIsolation() passed after 0.119 seconds.
+✔ Test djiNativeLabelsDoNotCreateMacActions() passed after 0.119 seconds.
+✔ Test settingsRoundTrip() passed after 0.119 seconds.
+✔ Test weChatVoicePreferencePreservesMappingsAndEmitsControlI() passed after 0.120 seconds.
+✔ Test run with 48 tests in 0 suites passed after 0.121 seconds.

@@ -1,0 +1,156 @@
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[1/5] Write swift-version--58304C5D6DBC2206.txt
+[3/11] Compiling SmileTool RemoteMappingStore.swift
+[4/11] Compiling SmileTool SmileDataManager.swift
+[5/13] Compiling SmileTool DataStorage.swift
+[6/13] Compiling SmileTool AudioSettingsStore.swift
+[7/13] Emitting module SmileTool
+[8/13] Compiling SmileTool SmileToolApp.swift
+[9/13] Compiling SmileTool DataSettingsView.swift
+[10/13] Compiling SmileTool NUT65Store.swift
+[10/14] Write Objects.LinkFileList
+[11/14] Linking SmileTool
+[12/14] Applying SmileTool
+[14/16] Compiling HardwareTests DataStorageTests.swift
+[15/16] Emitting module HardwareTests
+[15/17] Write Objects.LinkFileList
+[16/17] Linking SmileToolPackageTests
+Build complete! (2.89s)
+Test Suite 'All tests' started at 2026-09-26 22:36:52.820.
+Test Suite 'All tests' passed at 2026-09-26 22:36:52.821.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test unavailableConfiguredStoreNeverCreatesBlankDatabase() started.
+◇ Test mxFirmwareControlsAndPressSetsAreBounded() started.
+◇ Test diagnosticFullBufferRendersWithoutRefillGaps() started.
+◇ Test mxReportsRespectDeviceFeatureAndSoftwareFields() started.
+◇ Test nut65PacketAndBigEndianKeycode() started.
+◇ Test x6KeyboardAndConsumerReports() started.
+◇ Test audioRingBoundsLatencyAndSanitizesSamples() started.
+◇ Test weChatVoicePreferencePreservesMappingsAndEmitsControlI() started.
+◇ Test audioProtocolResetsAndRejectsMalformedPackets() started.
+◇ Test diagnosticSmallRefillCanIntroduceDiscontinuity() started.
+◇ Test batteryNeverInventsOrClampsInvalidPercentage() started.
+◇ Test settingsRoundTrip() started.
+◇ Test mixActuallySumsSourcesAndHonorsMuteSolo() started.
+◇ Test batteryMissingSamplesPreserveLastSuccessfulReading() started.
+◇ Test nut65PhysicalLayoutAndUnknownKeysArePreserved() started.
+◇ Test outputsHaveIndependentGainMuteAndClipping() started.
+◇ Test customVoiceAndModelIsolation() started.
+◇ Test imageCompressionPreservesOriginalAndUsesCorrectExtension() started.
+◇ Test damagedBackupRejectedWithoutTouchingActiveData() started.
+◇ Test djiHoldRequiresRealDurationAndResetCancelsPendingGesture() started.
+◇ Test diagnosticToneIsBoundedFiniteAndFades() started.
+➜ Test diagnosticSpeakerPlaybackCompletes() skipped.
+◇ Test djiBluetoothRejectsInvalidPercentAndDropsDisconnectedDevices() started.
+◇ Test x6VoiceSuppressesOnlyMatchingNativeSearchEdges() started.
+◇ Test hardwarePresetSwitchEndsLearningAndReleasesHeldShortcut() started.
+◇ Test x6UnprefixedControlModifierDoesNotLoseMappedKey() started.
+◇ Test djiPresetsPersistIndependentlyAndAudioIsUSB() started.
+◇ Test systemAudioInventoryIsReadableWithoutChangingRoutes() started.
+◇ Test djiNativeOnlyRowsIgnoreSavedCustomActions() started.
+◇ Test chromecastReportEdges() started.
+➜ Test virtualMixSignalReturnsThroughDriverAndOutputMuteWorks() skipped.
+◇ Test mixSettingsPreserveUIDsAndChannelControls() started.
+◇ Test djiBatteryTransientFailureKeepsIdentityTimestampAndExpires() started.
+◇ Test duplicateInspectionExcludesKeyboardRecoveryHistory() started.
+◇ Test heldKeyReleasedOnDisableAndEdit() started.
+◇ Test x6PGPlusAndVoiceDispatchConfiguredActions() started.
+◇ Test routingRejectsLoopbackAndMissingDevicesButAllowsDuplexHardware() started.
+◇ Test localMonitoringGateSilencesAudioAndDropsStaleSpeech() started.
+◇ Test localDatabaseAndCompleteArchiveRoundTrip() started.
+◇ Test djiNativeLabelsDoNotCreateMacActions() started.
+➜ Test djiTwoPhysicalInputsDeliverAudio() skipped.
+◇ Test djiClickGesturesDoNotEmitShorterActions() started.
+◇ Test archiveLinksAndForeignArchivesRejected() started.
+◇ Test djiBluetoothKeepsTwoIdentitiesAndMissingBatteryUnknown() started.
+◇ Test learningAndEditingDoNotExecute() started.
+➜ Test virtualOutputGraphOpensWithoutCapturingOrPlayingContent() skipped.
+◇ Test streamingResamplerPreservesPacketBoundaries() started.
+◇ Test weChatShortcutWaitsForAudioAndDoesNotRepeatOnStreamRestart() started.
+◇ Test nut65MacEditorDoesNotDefaultToWindowsLayer() started.
+◇ Test invalidSettingsNeverReplaceValidDatabase() started.
+◇ Test mouseMatchingRejectsUnrelatedStaleAndDuplicateEdges() started.
+◇ Test hardwarePresetsMigrateAndRemainIsolatedAcrossRestarts() started.
+◇ Test visualAudioMetersUseDecibelsAndBoundInvalidValues() started.
+◇ Test disconnectedDevicesDoNotBlockAvailableMixOrLosePreferences() started.
+◇ Test directoryReplacementPreservesCompletePreviousData() started.
+◇ Test preferencesRecoverOnLaunchAndSavingDoesNotDependOnWindow() started.
+◇ Test headphonesAndAggregatesRequireExplicitMonitoring() started.
+Tone refill diagnostic: 480 supplied / 512 requested; 32 zero-filled frames; discontinuity=0.05067047
+✔ Test mxFirmwareControlsAndPressSetsAreBounded() passed after 0.008 seconds.
+✔ Test audioRingBoundsLatencyAndSanitizesSamples() passed after 0.008 seconds.
+✔ Test batteryNeverInventsOrClampsInvalidPercentage() passed after 0.008 seconds.
+✔ Test mxReportsRespectDeviceFeatureAndSoftwareFields() passed after 0.008 seconds.
+✔ Test audioProtocolResetsAndRejectsMalformedPackets() passed after 0.008 seconds.
+✔ Test djiHoldRequiresRealDurationAndResetCancelsPendingGesture() passed after 0.008 seconds.
+✔ Test diagnosticSmallRefillCanIntroduceDiscontinuity() passed after 0.009 seconds.
+✔ Test nut65PacketAndBigEndianKeycode() passed after 0.009 seconds.
+✔ Test outputsHaveIndependentGainMuteAndClipping() passed after 0.009 seconds.
+✔ Test mixActuallySumsSourcesAndHonorsMuteSolo() passed after 0.009 seconds.
+✔ Test djiBatteryTransientFailureKeepsIdentityTimestampAndExpires() passed after 0.009 seconds.
+✔ Test nut65PhysicalLayoutAndUnknownKeysArePreserved() passed after 0.009 seconds.
+✔ Test mixSettingsPreserveUIDsAndChannelControls() passed after 0.009 seconds.
+✔ Test routingRejectsLoopbackAndMissingDevicesButAllowsDuplexHardware() passed after 0.009 seconds.
+✔ Test localMonitoringGateSilencesAudioAndDropsStaleSpeech() passed after 0.009 seconds.
+✔ Test djiClickGesturesDoNotEmitShorterActions() passed after 0.009 seconds.
+✔ Test djiBluetoothRejectsInvalidPercentAndDropsDisconnectedDevices() passed after 0.009 seconds.
+✔ Test djiBluetoothKeepsTwoIdentitiesAndMissingBatteryUnknown() passed after 0.009 seconds.
+✔ Test streamingResamplerPreservesPacketBoundaries() passed after 0.009 seconds.
+✔ Test weChatShortcutWaitsForAudioAndDoesNotRepeatOnStreamRestart() passed after 0.009 seconds.
+✔ Test nut65MacEditorDoesNotDefaultToWindowsLayer() passed after 0.009 seconds.
+✔ Test invalidSettingsNeverReplaceValidDatabase() passed after 0.009 seconds.
+✔ Test mouseMatchingRejectsUnrelatedStaleAndDuplicateEdges() passed after 0.009 seconds.
+✔ Test duplicateInspectionExcludesKeyboardRecoveryHistory() passed after 0.009 seconds.
+✔ Test visualAudioMetersUseDecibelsAndBoundInvalidValues() passed after 0.009 seconds.
+✔ Test disconnectedDevicesDoNotBlockAvailableMixOrLosePreferences() passed after 0.009 seconds.
+✔ Test headphonesAndAggregatesRequireExplicitMonitoring() passed after 0.009 seconds.
+✔ Test unavailableConfiguredStoreNeverCreatesBlankDatabase() passed after 0.014 seconds.
+✔ Test diagnosticToneIsBoundedFiniteAndFades() passed after 0.015 seconds.
+✔ Test directoryReplacementPreservesCompletePreviousData() passed after 0.018 seconds.
+✔ Test archiveLinksAndForeignArchivesRejected() passed after 0.019 seconds.
+Audio inventory: “iPhone”的麦克风 [in:1, out:0], MacBook Air麦克风 [in:1, out:0], MacBook Air扬声器 [in:0, out:2], QSAudio [in:0, out:2], vRemoteDr 2ch [in:2, out:2]
+✔ Test systemAudioInventoryIsReadableWithoutChangingRoutes() passed after 0.066 seconds.
+Scheduled tone: 48000 frames, max sample error=0.0, max adjacent step=0.0046070167
+✔ Test diagnosticFullBufferRendersWithoutRefillGaps() passed after 0.116 seconds.
+✔ Test localDatabaseAndCompleteArchiveRoundTrip() passed after 0.116 seconds.
+✔ Test weChatVoicePreferencePreservesMappingsAndEmitsControlI() passed after 0.118 seconds.
+[X6-MAP] 方向上 DOWN -> up
+[X6-MAP] 方向上 UP -> up
+[X6-MAP] 返回 DOWN -> back
+[X6] consumer usage=0x0224 edge=down raw=24 02
+[X6-MAP] 返回 UP -> back
+[X6] consumer usage=0x0000 edge=up raw=00 00
+✔ Test x6KeyboardAndConsumerReports() passed after 0.119 seconds.
+✔ Test settingsRoundTrip() passed after 0.119 seconds.
+✔ Test customVoiceAndModelIsolation() passed after 0.121 seconds.
+✔ Test batteryMissingSamplesPreserveLastSuccessfulReading() passed after 0.122 seconds.
+✔ Test hardwarePresetSwitchEndsLearningAndReleasesHeldShortcut() passed after 0.123 seconds.
+[X6-MAP] 方向上 DOWN -> up
+[X6-MAP] 方向上 UP -> up
+✔ Test x6UnprefixedControlModifierDoesNotLoseMappedKey() passed after 0.124 seconds.
+✔ Test djiPresetsPersistIndependentlyAndAudioIsUSB() passed after 0.126 seconds.
+✔ Test imageCompressionPreservesOriginalAndUsesCorrectExtension() passed after 0.127 seconds.
+✔ Test djiNativeOnlyRowsIgnoreSavedCustomActions() passed after 0.127 seconds.
+[CAST-MAP] 方向上 DOWN -> up
+[CAST-MAP] 方向上 UP -> up
+✔ Test chromecastReportEdges() passed after 0.128 seconds.
+✔ Test x6VoiceSuppressesOnlyMatchingNativeSearchEdges() passed after 0.143 seconds.
+✔ Test heldKeyReleasedOnDisableAndEdit() passed after 0.144 seconds.
+[X6-MAP] PG+ DOWN -> App Store
+[X6-MAP] PG+ UP -> App Store
+[X6] consumer usage=0x0221 edge=down raw=21 02
+[X6] voice DOWN source=consumer-search
+[X6] consumer usage=0x0000 edge=up raw=00 00
+[X6] voice UP source=keyboard-0xAA
+✔ Test x6PGPlusAndVoiceDispatchConfiguredActions() passed after 0.146 seconds.
+✔ Test djiNativeLabelsDoNotCreateMacActions() passed after 0.146 seconds.
+✔ Test learningAndEditingDoNotExecute() passed after 0.147 seconds.
+✔ Test hardwarePresetsMigrateAndRemainIsolatedAcrossRestarts() passed after 0.148 seconds.
+✔ Test preferencesRecoverOnLaunchAndSavingDoesNotDependOnWindow() passed after 0.153 seconds.
+✔ Test damagedBackupRejectedWithoutTouchingActiveData() passed after 0.183 seconds.
+✔ Test run with 57 tests in 0 suites passed after 0.183 seconds.
